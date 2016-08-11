@@ -1,0 +1,11 @@
+#ofAge {
+  display: none;
+}
+
+#underAge {
+  display: none;
+}
+
+.form-inline {
+  max-width: 150px;
+}

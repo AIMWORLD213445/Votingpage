@@ -1,13 +1,17 @@
 $(document).ready(function(){
   $("#ageSubmit").click(function() {
-  		var dob = $("#born").val();
-  		dob = parseInt(dob);
+  		var dob = parseInt($("#born").val());
+  		// dob = parseInt(dob);
+      console.log(dob);
 
-  		if (dob < 1998){
-  			$("#ofAge").hide();
-  			$("#underAge").show();
+  		if (isNaN(dob)) {
+        alert("You are a knob");
+      } else if (dob < 1998){
+        $("#ofAge").show();
+  			$("#underAge").hide();
   		} else {
-  			alert("Get older!");
+        $("#ofAge").hide();
+  			$("#underAge").show();
   		}
   	});
 });

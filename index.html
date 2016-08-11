@@ -2,29 +2,34 @@
 <html>
   <head>
     <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
-    <link rel="stylesheet" href="styles.css" type="text/css">
-    <script src="jquery-3.1.0.min.js"></script>
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <script src="js/jquery-3.1.0.js"></script>
     <script src="js/scripts.js"></script>
     <title>Learn to Vote</title>
   </head>
   <body>
+  <div class="container">
     <h1>Voter Information</h1>
 
     <div id="ageContainer" class="container"> <!-- START age container -->
       <h3>Date of birth: </h3>
       <div class="form-group">
         <label for="born">Date of birth:</label>
-        <input id="born" class="form-control" type="date">
+        <input id="born" class="form-control form-inline" type="date">
       </div>
 
       <button type="submit" id="ageSubmit" class="btn btn-default">Enter Page</button>
     </div> <!-- END age container -->
     <div id="ofAge"><!--Of Age-->
-
-
+      <img src ="img/readyvote.jpeg" alt="picture of voting">
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed elementum posuere ex. Suspendisse fringilla enim at justo cursus, non convallis dolor sollicitudin. Integer sollicitudin lobortis nibh, quis bibendum magna pulvinar tristique. Curabitur sed turpis placerat, luctus ligula vel, mattis orci. Cras porta a lectus vitae blandit. Aliquam in ex vulputate, efficitur quam eu, tempor tortor. Aenean pulvinar, libero vitae pretium lobortis, justo purus condimentum lacus, id finibus dolor massa mollis dui. Suspendisse vitae tortor et tellus feugiat mollis. Nulla cursus, ante eu dignissim volutpat, turpis sem dictum quam, laoreet gravida diam ipsum sit amet justo. Integer vel nulla finibus lectus suscipit sodales. Phasellus blandit eros ornare imperdiet porta. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
     </div><!--END Of Age-->
-    <div id="underAge"><!--START Not Of Age-->
 
+    <div id="underAge"><!--START Not Of Age-->
+      <a href="http://www.fairvote.org/america-s-young-voters-who-they-are-and-why-they-matter">Click here</a> for more information
+      <img src ="img/youthvote.jpeg" alt="picture of young voters">
+      <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas ullamcorper semper sem, in aliquam lorem ultrices at. Quisque tristique ligula diam, a pellentesque leo fringilla eget. Aliquam imperdiet turpis a odio tincidunt suscipit. Pellentesque et nisi nec orci pharetra tincidunt. Interdum et malesuada fames ac ante ipsum primis in faucibus. Ut condimentum tortor eros, nec suscipit nulla convallis sed. Phasellus nunc nibh, ultrices id metus non, gravida efficitur felis.</p>
     </div><!--END Not Of Age-->
+  </div>
   </body>
 </html>
